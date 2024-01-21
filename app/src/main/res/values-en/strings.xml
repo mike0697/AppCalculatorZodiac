@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator Zodiac</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8355687891618878/8910304384</string>
+    <string name="iniziali_nome_e_cognome_partner">initials name and surname partner</string>
+    <string name="match">MATCH</string>
+    <string name="cognome">Surname</string>
+    <string name="iniziali_nome_e_cognome">initials name and surname</string>
+    <string name="nome">First name</string>
+    <string name="segno_zodiacale">Zodiac sign</string>
+    <string name="risultato">Result</string>
+    <string name="descrizione">Description</string>
+    <string name="messaggio_errore_iniziali">Invalid initials</string>
+    <string name="messaggio_errore_segno_zodiacale">Invalid zodiac sign</string>
+
+    <string name="ariete">aries</string>
+    <string name="toro">taurus</string>
+    <string name="gemelli">gemini</string>
+    <string name="cancro">cancer</string>
+    <string name="leone">leo</string>
+    <string name="vergine">virgo</string>
+    <string name="bilancia">libra</string>
+    <string name="scorpione">scorpio</string>
+    <string name="sagittario">sagittarius</string>
+    <string name="capricorno">capricorn</string>
+    <string name="acquario">aquarius</string>
+    <string name="pesci">pisces</string>
+</resources>

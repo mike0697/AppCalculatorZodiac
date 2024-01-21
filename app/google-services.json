@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "117170564843",
+    "project_id": "app-calculator-zodiac",
+    "storage_bucket": "app-calculator-zodiac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117170564843:android:ddf9ca8d5776bee003d8ae",
+        "android_client_info": {
+          "package_name": "com.michele.appcalculatorzodiac"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRtBlnIl6hwiOScYjqTev7GWZp_eMz33U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

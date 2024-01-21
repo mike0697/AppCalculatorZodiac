@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/Prova"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_background"
+            android:orientation="vertical"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_background"
+                android:fontFamily="@font/roboto"
+                android:text="@string/iniziali_nome_e_cognome"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/inizialiNomeLui"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:hint="@string/nome"
+                    android:maxLines="1"
+                    android:imeOptions="actionNone"
+                    android:autofillHints="name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/inizialiCognomeLui"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:hint="@string/cognome"
+                    android:maxLines="1"
+                    android:imeOptions="actionNone"
+                    android:autofillHints="familyName"
+                    android:fontFamily="@font/roboto"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <AutoCompleteTextView
+                android:id="@+id/segnoZodiacaleLui"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_background"
+                android:backgroundTint="@color/black"
+                android:hint="@string/segno_zodiacale"
+                android:inputType="text"
+                android:maxLines="1"
+                android:imeOptions="actionNone"
+                android:fontFamily="@font/roboto"
+                android:popupBackground="@color/black"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edittext_background"
+                android:text="@string/iniziali_nome_e_cognome_partner"
+                android:fontFamily="@font/roboto"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/inizialiNomeLei"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_background"
+                    android:fontFamily="@font/roboto"
+                    android:ems="10"
+                    android:hint="@string/nome"
+                    android:autofillHints="@string/nome"
+                    android:maxLines="1"
+                    android:imeOptions="actionNone"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/inizialiCognomeLei"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_background"
+                    android:ems="10"
+                    android:autofillHints="familyName"
+                    android:hint="@string/cognome"
+                    android:maxLines="1"
+                    android:imeOptions="actionNone"
+                    android:fontFamily="@font/roboto"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <AutoCompleteTextView
+                android:id="@+id/segnoZodiacaleLei"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_background"
+                android:backgroundTint="@color/black"
+                android:hint="@string/segno_zodiacale"
+                android:inputType="text"
+                android:maxLines="1"
+                android:imeOptions="actionNone"
+                android:popupBackground="@color/black"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto"
+                android:textColorHint="@color/white" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/buttonMatch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/roboto"
+                android:text="@string/match"
+                android:background="@drawable/rectangle_1"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/risultato"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/matchResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_background"
+                android:fontFamily="@font/roboto"
+                android:text="100%"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="42sp" />
+
+            <TextView
+                android:id="@+id/textDescrizione"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto"
+                android:text="@string/descrizione"
+                android:textColor="@color/white" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
